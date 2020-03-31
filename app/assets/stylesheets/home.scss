@@ -82,7 +82,7 @@ li {
 }
 
 .intro-title {
-	padding: 0 370px 50px 370px;
+	padding: 0 350px 50px 350px;
 }
 
 .intro-title h1 {
@@ -96,10 +96,11 @@ li {
 	padding: 100px;
 	padding-bottom: 500px;
 }
+
 .intro-wapper img {
 	width: 40%;
 	float: left;
-	border-radius: 8px;
+	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -117,6 +118,13 @@ li {
 	background-color: #EBEDEF;
 }
 
+.description {
+	text-align: center;
+	color: #151B54;
+	letter-spacing: 2px;
+	padding: 70px 0 0 400px;
+}
+
 footer {
 	background-color: #2f5167;
 	color: #fff;
@@ -132,7 +140,7 @@ footer {
 }
 
 .footer-email {
-	padding: 20px 0 20px 0;
+	padding: 20px 0 0 0;
 	float: left;
 
 }
@@ -141,11 +149,15 @@ footer {
 	width: 5%;
 	float: right;
 	padding-left: 20px;
-	padding-left: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
-
+.copyright {
+	font-size: 15px;
+	padding: 5px;
+	color:#fff;
+	background-color: #2f5167;
+}
 
 
 
