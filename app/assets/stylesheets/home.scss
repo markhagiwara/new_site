@@ -14,10 +14,19 @@ li {
   list-style: none;
 }
 
+h1, h2, h3, p {
+	font-weight: normal;
+	color: #151B54;
+}
+
+a {
+	text-decoration: none;
+}
+
 .header {
   height: 90px;
   width: 100%;
-  background-color: white;
+  background-color: #2f5167;
   border-bottom: 2px solid #151B54;
   position: fixed;
 }
@@ -25,24 +34,21 @@ li {
 .header-icon {
 	float: left;
 	padding: 20px 40px;
-	color: #151B54;
-	font-weight: normal;
+	color: white;
 }
 
 .header-icon a {
-	text-decoration: none;
-	color: #151B54;
+	color: white;
 }
 
 .header-list li {
 	float: left;
 	padding: 33px 20px;
-	color: #151B54;
+	color: white;
 }
 
 .header-list li a {
-	text-decoration: none;
-	color: #151B54;
+	color: white;
 }
 
 .header-list {
@@ -69,7 +75,6 @@ li {
 
 .message-wapper h1 {
 	text-align: center;
-	font-weight: normal;
 	padding: 0 0 10px 0;
 	font-size: 40px
 }
@@ -87,14 +92,13 @@ li {
 
 .intro-title h1 {
 	text-align: center;
-	font-weight: normal;
 	border-bottom: 2px solid #151B54;
 	color: #151B54;
 	
 }
 .intro-wapper {
 	padding: 100px;
-	padding-bottom: 500px;
+	padding-bottom: 300px;
 }
 
 .intro-wapper img {
@@ -102,20 +106,6 @@ li {
 	float: left;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.experience-wapper {
-	padding: 100px 0 100px 0;
-}
-
-.experience-title h1 {
-	padding: 30px 0 30px 0;
-	font-weight: normal;
-	color: #151B54;
-	text-align: center;
-/*	border-bottom: 2px solid #151B54;
-	border-top: 2px solid #151B54;*/
-	background-color: #EBEDEF;
 }
 
 .description {
@@ -158,6 +148,71 @@ footer {
 	color:#fff;
 	background-color: #2f5167;
 }
+
+/*Experiences page below*/
+
+.experience-wapper {
+	padding: 150px 0px 150px 0px;
+	background-image: url('/IMG_1024.JPG');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.experience-title {
+	padding: 40px 200px 0 200px;
+}
+
+.experience-title h1 {
+	color: #151B54;
+	text-align: center;
+	border-bottom: 2px solid #151B54;
+}
+
+.experience-contents li {
+	padding: 50px 0px 350px 0;
+}
+
+.experience-contents p {
+	letter-spacing: 1px;
+}
+
+.nasa img {
+	width: 25%;
+	float: left;
+}
+
+.foothill img {
+	width: 25%;
+	float: left;
+}
+
+.youtube-link img {
+	width: 5%;
+	float:left;
+	padding: 3px;
+}
+
+.youtube-link p {
+	padding-top: 15px;
+}
+
+.description-container {
+	float: left;
+	padding: 10px;
+}
+
+.personal-project-title {
+	padding: 100px 230px;
+}
+
+.personal-project-title h1 {
+	text-align: center;
+	border-bottom: 2px solid #151B54;
+}
+
+
+
 
 
 
