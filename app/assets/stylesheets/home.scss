@@ -170,7 +170,7 @@ footer {
 }
 
 .experience-contents li {
-	padding: 50px 0px 350px 0;
+	padding: 50px 0px 330px 0;
 }
 
 .experience-contents p {
@@ -178,12 +178,12 @@ footer {
 }
 
 .nasa img {
-	width: 25%;
+	width: 20%;
 	float: left;
 }
 
 .foothill img {
-	width: 25%;
+	width: 20%;
 	float: left;
 }
 
@@ -194,7 +194,7 @@ footer {
 }
 
 .youtube-link p {
-	padding-top: 15px;
+	padding: 15px 0px;
 }
 
 .description-container {
@@ -202,8 +202,14 @@ footer {
 	padding: 10px;
 }
 
+/*This is personal project*/
+
+.personal-project-contents li {
+	padding: 0px 0px 250px 0;
+}
+
 .personal-project-title {
-	padding: 100px 230px;
+	padding: 50px 230px;
 }
 
 .personal-project-title h1 {
@@ -211,8 +217,47 @@ footer {
 	border-bottom: 2px solid #151B54;
 }
 
+.ushinohi-logo {
+	width: 15%;
+	border-radius: 100px;
+}
 
+.personal-project-contents p {
+	letter-spacing: 1px;
+}
 
+.project-icon img {
+	width: 100%;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+.project-icon p {
+	text-align: center;
+	letter-spacing: 1px;
+	padding: 10px;
+}
+
+.project-pic {
+	width: 30%;
+	border-radius: 50px;
+	float: left;
+	padding: 10px 10px 10px 10px;
+}
+
+/*School project below*/
+
+.school-project-contents {
+	padding: 0px 0px 1100px 0;
+}
+
+.school-project-title {
+	padding: 30px 250px 80px 250px;
+}
+
+.school-project-title h1 {
+	text-align: center;
+	border-bottom: 2px solid #151B54;
+}
 
 
