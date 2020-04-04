@@ -21,6 +21,7 @@ h1, h2, h3, p {
 
 a {
 	text-decoration: none;
+	color: #151B54;
 }
 
 .header {
@@ -260,4 +261,79 @@ footer {
 	border-bottom: 2px solid #151B54;
 }
 
+/*Education page below*/
+
+.education-wapper {
+	padding: 150px 0px 150px 0px;
+	background-image: url('/math.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.education-title {
+	padding: 40px 300px 0 300px;
+}
+
+.education-title h1 {
+	color: #151B54;
+	text-align: center;
+	border-bottom: 2px solid #151B54;
+	margin-bottom: 100px;
+}
+
+.education-contents {
+	height: 1200px;
+}
+
+.education-content {
+	width: 900px;
+	height: 200px;
+	padding: 10px 0;
+}
+
+.education-pic {
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+
+.education-name {
+	width: 700px;
+	height: 50px;
+	float: right;
+}
+
+.education-description {
+	width: 700px;
+	height: 100px;
+	float: right;
+}
+
+.education-pic img {
+	width: 100%;
+	border-radius: 30px;
+}
+
+.education-name h1 {
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.education-description {
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.vertical-line {
+	height: 100px;
+	width: 100%;
+	border-left: 5px solid grey;
+	margin-left: 100px;
+}
+
+.education-name-okazu h1 {
+	text-align: center;
+	letter-spacing: 2px;
+}
 
