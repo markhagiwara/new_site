@@ -10,5 +10,8 @@ class HomeController < ApplicationController
 
   def education
   end
+
+  def skills
+  end
   
 end

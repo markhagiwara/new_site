@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get "about" => "home#about"
   get "experience" => "home#experience"
   get "education" => "home#education"
+  get "skills" => "home#skills"
 end
