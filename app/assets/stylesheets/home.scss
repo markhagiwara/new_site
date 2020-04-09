@@ -32,10 +32,16 @@ a {
   position: fixed;
 }
 
+.header-container {
+	height: 90px;
+	width: 100%;
+}
+
 .header-icon {
 	float: left;
 	padding: 20px 40px;
 	color: white;
+	position: fixed;
 }
 
 .header-icon a {
@@ -148,7 +154,7 @@ footer {
 
 .experience-wapper {
 
-	background-image: url('/IMG_1024.JPG');
+	background-image: url('/IMG_1024.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 600px;
