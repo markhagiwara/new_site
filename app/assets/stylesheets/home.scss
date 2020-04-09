@@ -108,7 +108,6 @@ a {
 }
 .intro-wapper {
 	padding: 100px;
-	padding-bottom: 300px;
 }
 
 .aboutme-container img {
@@ -132,6 +131,28 @@ a {
 	height: 300px;
 	width: 800px;
 	margin: 0 auto;
+}
+
+.quote-wapper {
+	height: 300px;
+	width: 700px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.quote-content h1 {
+	text-align: center;
+	font-style: italic;
+	color: grey;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.quote-content h2 {
+	text-align: right;
+	font-style: italic;
+	color: grey;
+	font-family: "Times New Roman", Times, serif;
+	padding-right: 30px;
 }
 
 footer {
