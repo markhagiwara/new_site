@@ -178,7 +178,9 @@ footer {
 }
 
 .experience-title {
-	padding: 40px 200px 0 200px;
+	width: 500px;
+	padding: 50px 0;
+	margin: 0 auto;
 }
 
 .experience-title h1 {
@@ -227,7 +229,9 @@ footer {
 }
 
 .personal-project-title {
-	padding: 50px 230px;
+	padding: 50px 0;
+	width: 450px;
+	margin: 0 auto;
 }
 
 .personal-project-title h1 {
@@ -270,7 +274,9 @@ footer {
 }
 
 .school-project-title {
-	padding: 30px 250px 80px 250px;
+	width: 450px;
+	padding: 30px 0;
+	margin: 0 auto;
 }
 
 .school-project-title h1 {
@@ -288,14 +294,15 @@ footer {
 }
 
 .education-title {
-	padding: 40px 300px 0 300px;
+	width: 300px;
+	padding: 50px 0;
+	margin: 0 auto;
 }
 
 .education-title h1 {
 	color: #151B54;
 	text-align: center;
 	border-bottom: 2px solid #151B54;
-	margin-bottom: 100px;
 }
 
 .education-contents {
@@ -343,7 +350,7 @@ footer {
 
 .vertical-line {
 	height: 100px;
-	width: 100%;
+	width: 200px;
 	border-left: 5px solid grey;
 	margin-left: 100px;
 }
@@ -363,7 +370,9 @@ footer {
 }
 
 .skills-title {
-	padding: 40px 300px 0 300px;
+	width: 250px;
+	padding: 40px 0;
+	margin: 0 auto;
 }
 
 .skills-title h1 {
