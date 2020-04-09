@@ -399,7 +399,7 @@ footer {
 }
 
 .skills-title {
-	width: 250px;
+	width: 350px;
 	padding: 40px 0;
 	margin: 0 auto;
 }
@@ -413,10 +413,29 @@ footer {
 
 .skills-contents {
 	height: 1200px;
+	width: 100%;
 }
 
+.computer-skills {
+	height: 800px;
+	width: 100%;
+}
 
+.computer-skills-container-left {
+	height: 500px;
+	width: 500px;
+	float: left;
+}
 
+.computer-skills-container-left img {
+	width: 30%;
+}
+
+.computer-skills-container-right {
+	height: 500px;
+	width: 500px;
+	float: right;
+}
 
 
 
