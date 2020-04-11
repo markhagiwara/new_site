@@ -408,7 +408,7 @@ footer {
 	color: #151B54;
 	text-align: center;
 	border-bottom: 2px solid #151B54;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 .skills-contents {
@@ -423,27 +423,36 @@ footer {
 
 .computer-skills-container-left {
 	height: 500px;
-	width: 500px;
+	width: 450px;
 	float: left;
+	padding-left: 100px;
 }
 
-.computer-skills-container-left img {
-	width: 30%;
+.computer-skills img {
+	height: 100%;
 }
 
 .computer-skills-container-right {
 	height: 500px;
-	width: 500px;
+	width: 350px;
 	float: right;
 }
 
+.programing-icons {
+	width: 100px;
+	height: 1000px;
+}
 
+.programing-icon {
+	width: 50px;
+	height: 50px;
+	padding: 20px;
+}
 
-
-
-
-
-
+.programing-descriotion {
+	width: 350px;
+	height: 500px;
+}
 
 
 
